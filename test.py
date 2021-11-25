@@ -11,7 +11,7 @@ class TestSum(unittest.TestCase):
         self.assertEqual(result2, 0)
     def test_3(self):
         result3 = multiply(15, 10)
-        self.assertEqual(result3, 150)
+        self.assertEqual(result3, 100)
 
 
 if __name__ == '__main__':
